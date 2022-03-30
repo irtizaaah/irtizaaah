@@ -1,7 +1,13 @@
-# 👋 Hey
-As you _probably_ guessed by the existence of this page, **I code!**
 <br />
-Not just that, **I love doing it!**
+<div align="center">
+  <h1 align="center">👋 Hey</h1>
+
+  <p align="center">
+    As you probably guessed by the existence of this page, I code!
+    <br />
+    Not just that, I love doing it!
+  </p>
+</div>
 
 <!---
 irtizaaah/irtizaaah is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
