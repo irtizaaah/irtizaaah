@@ -3,9 +3,9 @@
   <h1 align="center">👋 Hey</h1>
 
   <p align="center">
-    As you probably guessed by the existence of this page, I code!
+    I'm a senior computer science major at California State University.
     <br />
-    Not just that, I love doing it!
+    My github includes passion projects and a couple of school projects I've put my time and effort into. 
   </p>
 </div>
 
