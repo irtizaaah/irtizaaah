@@ -1,3 +1,7 @@
+
+[Resume](https://github.com/irtizaaah/resume) <br/>
+[Personal Website](https://irtizaaah.github.io/personal-website/)
+
 <br />
 <div align="center">
   <h1 align="center">👋 Hey</h1>
@@ -8,9 +12,6 @@
     My github includes passion projects, as well as a couple of school projects I've put my time and energy into. 
   </p>
 </div>
-
-[Resume](https://github.com/irtizaaah/resume) <br/>
-[Personal Website](https://irtizaaah.github.io/personal-website/)
 
 <!---
 irtizaaah/irtizaaah is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
