@@ -7,7 +7,7 @@
   <h1 align="center">👋 Hey</h1>
 
   <p align="center">
-    I'm a senior computer science major at California State University.
+    I'm a senior computer science major at California State University. I also have an associates degree in mathematics.
     <br />
     My github includes passion projects, as well as a couple of school projects I've put my time and energy into. 
   </p>
