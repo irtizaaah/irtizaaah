@@ -1,5 +1,3 @@
-
-[Resume](https://github.com/irtizaaah/resume/blob/main/Irtiza_Khan.pdf) <br/>
 [Personal Website](https://irtizaaah.github.io/personal-website/)
 
 <br />
