@@ -1,13 +1,8 @@
+# 👋 Hey
+
 [Personal Website](https://irtizaaah.github.io/personal-website/)
 
-<br />
-<div align="center">
-  <h1 align="center">👋 Hey</h1>
-
-  <p align="center">
-    My github includes passion projects, as well as a couple of school projects I've put my time and energy into. 
-  </p>
-</div>
+My github includes passion projects, as well as a couple of school projects I've put my time and energy into.
 
 <!---
 irtizaaah/irtizaaah is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
