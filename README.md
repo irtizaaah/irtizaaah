@@ -1,8 +1,8 @@
 # 👋 Hey
 
-[Personal Website](https://irtizaaah.github.io/personal-website/)
+[Personal Website](irtiza.me)
 
-My github includes passion projects, as well as a couple of school projects I've put my time and energy into.
+Hey, there! I’m Irtiza Khan — a software engineer and computer scientist. After completing my undergraduate studies in computer science at California State University, East Bay, I pursued graduate coursework at Stanford's School of Engineering to further explore the intersection between computer systems, big data, and machine learning.
 
 <!---
 irtizaaah/irtizaaah is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
