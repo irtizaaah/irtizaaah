@@ -1,0 +1,36 @@
+.Page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-top: var(--space-xl);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 900px;
+}
+
+.title{
+    font-size: var(--font-size-xl);
+    margin: var(--space-sm);
+}
+
+.pretitle{
+    font-size: var(--font-size-sm);
+}
+
+.subtitle{
+    font-size: var(--font-size-lg);
+}
+
+article{
+    margin-top: var(--space-xl);
+    width: 50%;
+    max-width: 900px;
+}

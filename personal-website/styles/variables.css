@@ -1,0 +1,36 @@
+/* Colors */
+:root {
+    --text-color: #000000;
+    --background-color: #F5F7F8;
+}
+
+/* Typography */
+:root {
+    --font-family: 'Helvetica Neue';
+    --heading-font-weight: 500;
+    --base-font-size: 1em; /* 16px */
+    --body-font-weight: 400;
+    --line-height: 1.2;
+}
+
+/* Font Size */
+:root {
+    --scale-factor-sm: 0.9; /* Small scaling factor */
+    --scale-factor-md: 1;    /* Medium scaling factor */
+    --scale-factor-lg: 1.3;    /* Large scaling factor */
+    --scale-factor-xl: 3.5;  /* Extra large scaling factor */
+
+    --font-size-sm: calc(var(--base-font-size) * var(--scale-factor-sm));
+    --font-size-md: calc(var(--base-font-size) * var(--scale-factor-md));
+    --font-size-lg: calc(var(--base-font-size) * var(--scale-factor-lg));
+    --font-size-xl: calc(var(--base-font-size) * var(--scale-factor-xl));
+}
+
+/* Spacing */
+:root {
+    --space-xs: 0.2rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 3rem;
+    --space-xl: 4rem;
+}
