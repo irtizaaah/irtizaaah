@@ -96,12 +96,12 @@ a{
 }
 
 .nav a{
-    color: black;
+    color: gray;
     margin-right: 1rem;
 }
 
 .nav a:hover{
-    color: gray;
+    color: black;
     cursor: pointer;
 }
 
@@ -150,5 +150,6 @@ a{
     }
     .background1, .background2 {
         height: 70vh;
+        background-size: 1368px 912px; /* Width and height */
     }
 }
