@@ -1,14 +1,14 @@
 body{
     font-family: Helvetica, sans-serif;
-    margin: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
     text-decoration: none;
-    color: black;
-}
-a:hover{
-    text-decoration: underline;
 }
 
 .wrapper {
@@ -17,6 +17,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 1rem;
 }
 
 .typing-demo {
@@ -26,7 +27,7 @@ a:hover{
     overflow: hidden;
     border-right: 3px solid;
     font-family: "IBM Plex Mono", monospace;
-    font-size: 1.3rem;
+    font-size: 2.5rem;
 }
 
 @keyframes typing {
@@ -41,8 +42,27 @@ a:hover{
     }
 }
 
-.background {
-    height: 85vh;
+.background1 {
+    height: 75vh;
+    width: 85vw;
+
+    color: white;
+    background: url(./bg1.jpg) no-repeat center center;
+    background-size: 2736px 1824px; /* Width and height */
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Add animation to the background image */
+    animation: moveBackground 30s linear infinite;
+}
+
+.background2{
+    height: 75vh;
+    width: 85vw;
 
     color: white;
     background: url(./bg.jpg) no-repeat center center;
@@ -53,11 +73,44 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    /* Add animation to the background image */
+    animation: moveBackground 30s linear infinite;
 }
+
+@keyframes moveBackground {
+    0% {
+        background-position: 40% 40%;
+    }
+    100% {
+        background-position: 70% 70%;
+    }
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 1rem;
+}
+
+.nav a{
+    color: black;
+    margin-right: 1rem;
+}
+
+.nav a:hover{
+    color: gray;
+    cursor: pointer;
+}
+
 
 .links{
     display: flex;
-    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
 .links a img {
@@ -65,5 +118,37 @@ a:hover{
 }
 
 .links a {
+    color: white;
     margin: 1rem;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.caption{
+    font-size: small;
+    margin: 1rem;
+    color: lightgray;
+}
+
+.blurb{
+    max-width: 50vw;
+    text-align: center;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 1000px) {
+    .typing-demo {
+        font-size: 2rem; /* Adjust the size as needed */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .typing-demo {
+        font-size: 1.4rem; /* Adjust the size as needed */
+    }
+    .background1, .background2 {
+        height: 70vh;
+    }
 }
