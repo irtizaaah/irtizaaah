@@ -11,6 +11,19 @@ a{
     text-decoration: none;
 }
 
+p{
+    line-height: 1.3;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.card h1{
+    margin-bottom: 1rem;
+}
+
 .wrapper {
     /*This part is important for centering*/
     display: flex;
