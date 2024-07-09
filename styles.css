@@ -20,10 +20,6 @@ h1{
     font-weight: 500;
 }
 
-.card h1{
-    margin-bottom: 1rem;
-}
-
 .wrapper {
     /*This part is important for centering*/
     display: flex;
@@ -150,14 +146,24 @@ h1{
     text-align: center;
 }
 
+.card h1{
+    margin-bottom: 1rem;
+}
+
 /* Media query for mobile devices */
 @media only screen and (max-width: 1000px) {
     .typing-demo {
         font-size: 2rem; /* Adjust the size as needed */
     }
+    h1{
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
+    h1{
+        font-size: 1.4rem;
+    }
     .typing-demo {
         font-size: 1.4rem; /* Adjust the size as needed */
     }
