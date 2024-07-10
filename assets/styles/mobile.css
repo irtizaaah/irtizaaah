@@ -16,7 +16,7 @@
     .typing-effect {
         font-size: var(--font-size-m);
     }
-    .background1 {
+    #heading-block {
         height: 70vh;
         background-size: 1368px 912px;
     }
