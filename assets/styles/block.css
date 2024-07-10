@@ -1,0 +1,43 @@
+@import url('./variables.css');
+
+#heading-block {
+    color: var(--color-text-light);
+    background: url(../images/block-background.jpg) no-repeat center center;
+    background-size: 2736px 1824px;
+    border-radius: 10px;
+    animation: moveBackground 30s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 40% 40%;
+    }
+    100% {
+        background-position: 70% 70%;
+    }
+}
+
+#heading-block .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--space-m);
+}
+
+#heading-block .links a{
+    color: var(--color-text-light);
+}
+
+.block h1 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-m);
+}
+
+.block {
+    height: 75vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+@import url('./variables.css');
+
+@media only screen and (max-width: 1000px) {
+    .typing-effect {
+        font-size: var(--font-size-l);
+    }
+    h1 {
+        font-size: var(--font-size-l);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: var(--font-size-m);
+    }
+    .typing-effect {
+        font-size: var(--font-size-m);
+    }
+    .background1 {
+        height: 70vh;
+        background-size: 1368px 912px;
+    }
+}

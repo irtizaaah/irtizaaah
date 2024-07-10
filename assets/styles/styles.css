@@ -1,174 +1,66 @@
-body{
-    font-family: Helvetica, sans-serif;
-    margin: 1rem;
+@import url('./variables.css');
+
+body {
+    font-family: var(--font-family-sans);
+    margin: var(--space-m);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
+    color: var(--color-link);
+    margin: var(--space-m);
 }
 
-p{
-    line-height: 1.3;
-}
-
-h1{
-    font-size: 2.5rem;
-    font-weight: 500;
-}
-
-.wrapper {
-    /*This part is important for centering*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 1rem;
-}
-
-.typing-demo {
-    width: 22ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 2.5rem;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
-    
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
-}
-
-.background1 {
-    height: 75vh;
-    width: 85vw;
-
-    color: white;
-    background: url(../images/bg_1.jpg) no-repeat center center;
-    background-size: 2736px 1824px; /* Width and height */
-    border-radius: 10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    /* Add animation to the background image */
-    animation: moveBackground 30s linear infinite;
-}
-
-.background2{
-    height: 75vh;
-    width: 85vw;
-
-    color: white;
-    background: url(../images/bg_2.jpg) no-repeat center center;
-    background-size: 2736px 1824px; /* Width and height */
-    border-radius: 10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    /* Add animation to the background image */
-    animation: moveBackground 30s linear infinite;
-}
-
-@keyframes moveBackground {
-    0% {
-        background-position: 40% 40%;
-    }
-    100% {
-        background-position: 70% 70%;
-    }
-}
-
-.nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    margin: 1rem;
-}
-
-.nav a{
-    color: gray;
-    margin-right: 1rem;
-}
-
-.nav a:hover{
-    color: black;
-    cursor: pointer;
-}
-
-
-.links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.links a img {
-    margin-left: 5px;
-}
-
-.links a {
-    color: white;
-    margin: 1rem;
-}
-
-.links a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-.caption{
-    font-size: small;
-    margin: 1rem;
-    color: lightgray;
+.link img {
+    margin-left: var(--space-s);
 }
 
-.blurb{
+p {
+    line-height: 1.3;
+    color: var(--color-text-dark);
     max-width: 50vw;
     text-align: center;
 }
 
-.card h1{
-    margin-bottom: 1rem;
+h1 {
+    font-size: var(--font-size-xl);
+    font-weight: 500;
 }
 
-/* Media query for mobile devices */
-@media only screen and (max-width: 1000px) {
-    .typing-demo {
-        font-size: 2rem; /* Adjust the size as needed */
-    }
-    h1{
-        font-size: 2rem;
-    }
+footer {
+    font-size: var(--font-size-s);
+    color: var(--color-caption);
+    padding: var(--space-l);
 }
 
-@media only screen and (max-width: 600px) {
-    h1{
-        font-size: 1.4rem;
-    }
-    .typing-demo {
-        font-size: 1.4rem; /* Adjust the size as needed */
-    }
-    .background1, .background2 {
-        height: 70vh;
-        background-size: 1368px 912px; /* Width and height */
-    }
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text-dark);
+    margin: var(--space-m);
+}
+
+.nav a {
+    margin-right: var(--space-m);
+}
+
+.nav a:hover {
+    color: var(--color-link-hover);
+    cursor: pointer;
+}
+
+.caption {
+    font-size: var(--font-size-s);
+    margin: var(--space-m);
+    color: var(--color-caption);
+    text-align: left;
 }
