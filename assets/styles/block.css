@@ -2,18 +2,18 @@
 
 #heading-block {
     color: var(--color-text-light);
-    background: url(../images/block-background.jpg) no-repeat center center;
+    background: url(../images/block-background-HuGo07.jpg) no-repeat center center;
     background-size: 2736px 1824px;
-    border-radius: 10px;
+    border-radius: 5px;
     animation: moveBackground 30s linear infinite;
 }
 
 @keyframes moveBackground {
     0% {
-        background-position: 40% 40%;
+        background-position: 0% 0%;
     }
     100% {
-        background-position: 70% 70%;
+        background-position: 0% 70%;
     }
 }
 
